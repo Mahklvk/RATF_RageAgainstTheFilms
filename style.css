@@ -2,8 +2,13 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.navbar{
+    background-color: #FFC300;
+    color: #eee;
+}
+
 .content-main{
-    background-color: yellow;
+    background-color: #FFCD05;
 }
 
 .carousel-main-image{
@@ -40,7 +45,7 @@ text-align: justify;
 }
 
 .section-content-card{
-    background-color: black;
+    background-color: #001D3D;
     height: 40em;
 }
 
@@ -61,6 +66,7 @@ text-align: justify;
 
 
 .card-featured{
+    background-color: #000E1F;
     box-sizing: border-box;
     flex-shrink: 0;
     width: 250px;
@@ -69,16 +75,19 @@ text-align: justify;
 }
 
 .img-content-featured{
-    border-radius: 8px;
+    border-radius: 5px;
 }
 
 .text-featured{
     text-align: center;
+    color: #EEEEEE;
+    font-size: 20px;
+    justify-content: center;
 }
 
 .content-celebrities{
-    background-color: beige;
-    height: 20em;
+    background-color: #003566;
+    height: 25em;
 }
 
 .wrapper-celebrities{
@@ -89,6 +98,7 @@ text-align: justify;
 }
 
 .card-celebrities{
+    background-color: #000E1F;
     box-sizing: border-box;
     flex-shrink: 0;
     width: 250px;
@@ -96,4 +106,30 @@ text-align: justify;
     scroll-snap-align: center;
     border-radius: 50%;
     height: 250px;
+}
+
+.wrapper-top{
+    overflow-x: scroll;
+    gap: 20px;
+    width: 100%;
+    scroll-snap-type: x mandatory;
+}
+
+.card-top{
+    background-color: #000E1F;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    width: 250px;
+    border-radius: 5px;
+    scroll-snap-align: center;
+    border-radius: 5px;
+}
+
+.content-top{
+    background-color: #001329;
+    height: 40em;
+}
+
+.img-top{
+    border-radius: 5px;
 }
