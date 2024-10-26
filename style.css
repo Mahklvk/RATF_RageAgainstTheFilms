@@ -1,0 +1,77 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content-main{
+    background-color: yellow;
+}
+
+.carousel-main-image{
+    filter:brightness(50%);
+}
+.logo-brand{
+font-family: "Anton", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.langganan {
+font-family: "Fira Sans Condensed", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.content-image{
+border-radius: 10px;
+}
+
+.icon:hover{
+color: yellow;
+cursor: pointer;
+}
+
+.link-trailer{
+color: white;
+}
+
+
+.text-sinopsis{
+text-align: justify;
+}
+
+.section-content-card{
+    background-color: black;
+    height: 40em;
+}
+
+.img-rounded{
+    border-radius: 16px;
+}
+
+.wrapper{
+    overflow-x: scroll;
+    gap: 20px;
+    width: 100%;
+    scroll-snap-type: x mandatory;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+.card{
+    box-sizing: border-box;
+    flex-shrink: 0;
+    width: 250px;
+    border-radius: 5px;
+    scroll-snap-align: center;
+}
+
+.img-content-featured{
+    border-radius: 8px;
+}
+
+.text-featured{
+    text-align: center;
+}
