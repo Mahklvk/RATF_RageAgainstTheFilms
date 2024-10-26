@@ -60,7 +60,7 @@ text-align: justify;
 }
 
 
-.card{
+.card-featured{
     box-sizing: border-box;
     flex-shrink: 0;
     width: 250px;
@@ -74,4 +74,26 @@ text-align: justify;
 
 .text-featured{
     text-align: center;
+}
+
+.content-celebrities{
+    background-color: beige;
+    height: 20em;
+}
+
+.wrapper-celebrities{
+    overflow-x: scroll;
+    gap: 20px;
+    width: 100%;
+    scroll-snap-type: x mandatory;
+}
+
+.card-celebrities{
+    box-sizing: border-box;
+    flex-shrink: 0;
+    width: 250px;
+    border-radius: 5px;
+    scroll-snap-align: center;
+    border-radius: 50%;
+    height: 250px;
 }
